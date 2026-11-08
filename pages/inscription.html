@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inscription</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <header>
+        <div class="brand">
+            <div class="logo">HTS</div>
+            <h1>HighTechStore</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Accueil</a></li>
+                <li><a href="pc.html">PC</a></li>
+                <li><a href="inscription.html">Inscription</a></li>
+                <li><a href="info.html">Infos</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="container">
+            <form action="">
+                <fieldset>
+                    <h2>Espace Inscription</h2>
+                    <table class="ft">
+                        <tr>
+                            <td>
+                                <label for="nom">Nom :</label>
+                                <input type="text" name="nom" id="nom">
+                            </td>
+                            <td>
+                                <label for="pre">Prénom :</label>
+                                <input type="text" name="pre" id="pre">
+                            </td>
+                            <td>
+                                <label for="date">Date de Naissance :</label>
+                                <input type="date" name="date" id="date">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label>Sexe :</label>
+                                <input type="radio" name="sexe" id="m" value="m">Masculin
+                                <input type="radio" name="sexe" id="f" value="f">Féminin
+                            </td>
+                            <td>
+                                <label for="adr">Adresse :</label>
+                                <input type="text" name="adr" id="adr">
+                            </td>
+                            <td>
+                                <label for="code">Code Postal :</label>
+                                <input type="text" name="code" id="code">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="ville">Ville :</label>
+                                <input type="text" name="ville" id="ville">
+                            </td>
+                            <td>
+                                <label for="gov">Gouvernorat :</label>
+                                <select name="gov" id="gov">
+                                    <option value="">Choisir un gouvernorat</option>
+                                </select>
+                            </td>
+                            <td>
+                                <label for="fonc">Fonction :</label>
+                                <input type="text" name="fonc" id="fonc">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="em">Adresse E-mail :</label>
+                                <input type="email" name="em" id="em" placeholder="nom@exemple.com">
+                            </td>
+                            <td>
+                                <label for="num">Numéro de téléphone :</label>
+                                <input type="tel" name="num" id="num">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="3">
+                                <label for="area">Remarques :</label>
+                                <textarea name="area" id="area" placeholder="Vos remarques ou précisions ..."></textarea>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><input type="submit" value="Valider l'inscription"></td>
+                            
+                        </tr>
+                    </table>
+                </fieldset>
+            </form>
+        </div>
+    </main>
+    <footer>&copy; 2026 High TechStore - Tous droits réservés | Auteur : Chames eddin Ezzar</footer>
+</body>
+</html>
